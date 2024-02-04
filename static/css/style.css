@@ -1364,4 +1364,96 @@ footer {
 }
 
 /* ////////////////////    END HERO SECTION      \\\\\\\\\\\\\\\\\\ */
+/* ///////////////////    END LANDING PAGE   \\\\\\\\\\\\\\\\\\\\ */
 
+
+/* /////////////////////    CONTACT US PAGE    \\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.contact-wrapper {
+    display: flex;
+    width: 1440px;
+    height: 680px;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* margin-left: 120px; */
+}
+
+.ngannou {
+    width: 670px;
+    height: 638px;
+    border-radius: 6px;
+}
+
+.form-input-section {
+    display: flex;
+}
+
+.contact-inner-wrap h2 {
+    width: 394px;
+    height: 100px;
+    margin-left: 120px;
+    text-align: left;
+}
+
+.form {
+    margin-left: 120px;
+}
+
+.form-item {
+    text-align: left;
+}
+
+.input-item {
+    text-align: left;
+    border: 1px solid rgba(233, 238, 242, 1);
+    border-radius: 2px;
+    margin: 5px 20px 20px 0;
+    padding: 10px;
+    width: 269px;
+}
+
+#inquiry {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(233, 238, 242, 1);
+    border-radius: 2px;
+    padding: 10px;
+    width: 269px;
+    margin: 5px 20px 20px 0;
+}
+
+#inquiry option {
+    text-align: left;
+}
+
+.help-input {
+    text-align: left;
+}
+
+.help-input input {
+    padding: 0 360px 80px 0;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.help-input input::placeholder {
+    color: rgba(137, 145, 165, 1);
+    font-size: 16px;
+}
+
+#submit-btn {
+    display: flex;
+    align-items: center;
+    background-color: rgba(44, 79, 163, 1);
+    border-style: none;
+    color: white;
+    margin-top: 15px;
+    margin-left: 120px;
+    /* width: 120px; */
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+#submit-btn img {
+    margin-left: 7px;
+}
